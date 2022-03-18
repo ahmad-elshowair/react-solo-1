@@ -25,6 +25,7 @@ body {
 .card--info_image {
   width: 100%;
   border-radius: 10px 10px 0 0;
+  height: 350px;
 }
 
 .card--info_name {
@@ -125,5 +126,5 @@ body {
 }
 
 .social--list_icon {
-  width: 25px;
+  width: 30px;
 }
