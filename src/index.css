@@ -10,12 +10,16 @@ body {
 }
 
 .card {
-  width: 317px;
-  display: flex;
+  width: 350px;
   margin: 50px auto;
   border-radius: 10px;
   background-color: #1A1B21;
-  text-align: center;
+}
+
+.card--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card--info_image {
@@ -51,7 +55,6 @@ body {
 
 .card--info_btns {
   display: flex;
-  justify-content: space-around;
 }
 
 .btn {
@@ -71,14 +74,32 @@ body {
 
 .email__btn {
   color: #374151;
+  margin-right: 17px;
 }
 
 .linked__btn {
   background-color: #5093E2;
   color: #fff;
+  margin-right: 0;
 }
 
-.btn--image {
-  width: 16px;
-  height: 16px;
+.card__about {
+  width: 247px;
+  margin: 29px auto;
+}
+
+.card__about-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+
+.card__about-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin-top: 5px;
 }
