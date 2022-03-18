@@ -83,12 +83,14 @@ body {
   margin-right: 0;
 }
 
-.card__about {
+.card__about,
+.card__interest {
   width: 247px;
   margin: 29px auto;
 }
 
-.card__about-title {
+.card__about-title,
+.card__interest-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
@@ -96,7 +98,8 @@ body {
   margin-bottom: 0;
 }
 
-.card__about-text {
+.card__about-text,
+.card__interest-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
