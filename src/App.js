@@ -1,7 +1,12 @@
+import React from "react";
+import { Info } from "./components/Info";
 
-
-function App() {
-  
+const App = ()=> {
+  return (<div className="container">
+      <div className="card">
+          <Info />
+      </div>
+  </div>);
 }
 
 export default App;
